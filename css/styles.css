@@ -146,24 +146,20 @@ body {
 
 .button-hero {
     background: #2196F3;
-    text-decoration-color: #fff;
+    color: #fff;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     padding: 10px 32px 10px 32px;
-    border: 0;
-    cursor: pointer;
-}
-
-
-.text-button {
-    color: #fff;
     display: flex;
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
+    font-family: Roboto;
     font-weight: 700;
     font-size: 16px;
     line-height: 30px;
+    border: 0;
+    cursor: pointer;
 }
 
 
@@ -311,24 +307,31 @@ body {
 }
 
 
+.logo-footer {
+    color: #fff;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+}
+
+
 .footer {
     padding: 20px 0px 0px 216px;
+    line-height: 24px;
+    font-style: normal;
 }
 
 
 .footer-address {
-    font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
     letter-spacing: 0.03em;
     color: #FFFFFF;
 }
 
 
 .footer-text {
-    font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
 }
@@ -339,10 +342,11 @@ body {
 
 
 
-.filter-page {
-    height: 182px;
+.main-page {
+    height: 1548px;
     display: flex;
     flex-direction: column;
+    
 }
 
 
@@ -356,6 +360,7 @@ body {
 
 
 .button-filter {
+    font-family: Roboto;
     font-weight: 500;
     font-size: 16px;
     line-height: 26px;
@@ -373,14 +378,6 @@ body {
     background: #2196F3;
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
     color: #FFFFFF;
-}
-
-.filter-title {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 26px;
-    letter-spacing: 0.03em;   
-    color: #212121;
 }
 
 
@@ -412,7 +409,7 @@ body {
     height: 36px;
     font-weight: 700;
     font-size: 18px;
-    line-height: 36px;
+    line-height: 1.2;
     letter-spacing: 0.06em;
     color: #212121;
     padding: 20px 24px 4px 24px;
